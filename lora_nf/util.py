@@ -1,3 +1,6 @@
+# Copyright: 2009-2022 the scikit-image team
+# License: BSD-3-Clause
+
 import os
 import mcubes
 import numpy as np
