@@ -3,9 +3,12 @@ This python package implements the method from [Low-Rank Adaptation of Neural Fi
 
 In particular, it provides a simple function ```train_lora_regression()``` for adapting any MLP-based neural field (implemented as a ```torch.nn.Sequential()```) to new data using low-rank adaptations (LoRA). 
 
+<img width="1949" height="678" alt="Screenshot 2026-02-15 at 7 18 20 PM" src="https://github.com/user-attachments/assets/3528d348-e260-4585-b58a-065c4718cff9" />
+
 ## Installation
 Install the required dependencies in a conda environment using the provided ```environment.yml``` by running
 ```
+
 conda env create -f environment.yml
 ```
 Then install the ```lora-nf``` package:
